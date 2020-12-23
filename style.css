@@ -187,12 +187,13 @@ h1 {
 }
 .position-santa {
     margin: -89 0 0 -30;
+    position: relative;
 }
 .position-snow {
-    padding: 75 0 0 95;
-    width: 21vw;
-    height: 572px;
-    position: absolute;
+    margin: -370 0 0 95;
+    width: 22vw;
+    height: 523px;
+    position: relative;
 }
 .footer {
   position: fixed;
