@@ -3,6 +3,9 @@ body {
     max-width: auto;
     background-image: url('https://wallpaperaccess.com/full/307348.jpg');
 }
+html {
+    overflow: hidden;
+}
 .red {
     color: red; 
 }
@@ -23,8 +26,9 @@ ul {
   padding: 0;
 }
 li {
-    color: #fff;
-    padding: 5 15 0 15;
+    background-color: #76B7E1;
+    color: white;
+    padding: 5 15 5 15;
 }
 #left-navbar-flexbox {
     height: 0px;
@@ -189,9 +193,19 @@ h1 {
     margin: -89 0 0 -30;
     position: relative;
 }
-.position-snow {
-    margin: -370 0 0 95;
-    width: 22vw;
+#snow-grid {
+    display: grid;
+    padding: 0 0 0 0;
+}
+.position-snow-left {
+    margin: -375 0 0 40;
+    width: 15vw;
+    height: 523px;
+    position: relative;
+}
+.position-snow-right {
+    margin: -530 0 0 285;
+    width: 15vw;
     height: 523px;
     position: relative;
 }
@@ -203,4 +217,15 @@ h1 {
   width: 100%;
   background-color: #76B7E1;
   text-align: center;
+}
+.footer-container {
+    display: grid;
+}
+.left {
+    color: white;
+    font-size: 25px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    z-index: 101;
 }
